@@ -1,0 +1,20 @@
+*.iml
+.gradle
+/local.properties
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
+/build
+/captures
+C:\Users\Devul Nahar\OneDrive - University of Illinois - Urbana\Documents\GitHub\Personal-Projects\Software\Android Projects\App Development Course\.idea
+.externalNativeBuild
+.*7z
+*.dmg
+.*gz
+*.iso
+*.jar
+*.apk
+*.zip
+*.tar
+*.exe
