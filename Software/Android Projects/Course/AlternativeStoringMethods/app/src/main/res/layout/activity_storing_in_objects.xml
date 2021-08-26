@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+
+
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card Dialer"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/lang"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint="Language"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/hello"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint="Code"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/cardno"
+        android:inputType="numberPassword"
+        android:maxLines="1"
+        android:hint=" Card No"
+        android:layout_marginBottom="20dp"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Save"
+        android:id="@+id/strButton"
+
+        android:layout_marginBottom="1dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:id="@+id/showButton"
+        android:text="Show"
+
+        android:layout_marginBottom="1dp"/>
+
+
+
+</LinearLayout>

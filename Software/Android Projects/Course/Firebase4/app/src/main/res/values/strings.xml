@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Firebase4</string>
+    <string name="please_input_your_password_again" />
+    <string name="register" />
+</resources>

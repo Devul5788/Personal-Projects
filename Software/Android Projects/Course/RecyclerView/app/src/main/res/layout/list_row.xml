@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal"
+    android:background="@android:color/white"
+     >
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <!-- background as list_selector-->
+
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingRight="10dp"
+
+
+
+        >
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            />
+
+    </LinearLayout>
+
+    <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text=""
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+
+    <!-- Artist Name -->
+    <Button
+        android:id="@+id/viewbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title1"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Add To Cart"
+        />
+    <Button
+        android:id="@+id/buynw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title1"
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/viewbtn"
+        android:text="Buy Now"
+        />
+
+    <!-- Rightend Duration -->
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/title1"
+        android:gravity="right"
+        android:text="Price"
+        android:layout_marginRight="5dip"
+        android:textSize="10dip"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+    <!-- Rightend Arrow -->
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹.10"
+        android:textSize="15dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"
+        android:paddingBottom="30dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

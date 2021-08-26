@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoresConvertor.ScoresConvertorViewer">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Subjects.SubjectsViewer">
+
+        <LinearLayout
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/frame2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/CL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/greenCustom"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Scores Convertor"
+                    android:textColor="#fff"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/dotted"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/greenCustom"
+                    android:layerType="software"
+                    android:src="@drawable/dotted_line"
+                    app:layout_constraintTop_toBottomOf="@+id/title" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/rGrade"
+                    android:layout_width="match_parent"
+                    android:layout_height="81dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="96dp"
+                    android:textColorHint="@color/greenCustom"
+                    app:errorTextAppearance="@style/error_appearanceG"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/rcvdGrade"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/holo_green_dark"
+                        android:gravity="center"
+                        android:hint="You Got:"
+                        android:inputType="numberDecimal"
+                        android:onClick="confirmInputRCVD"
+                        android:textColor="@color/colorText"
+                        android:textSize="25sp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tGrade"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:layout_marginBottom="68dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:textColorHint="@color/greenCustom"
+                    app:errorTextAppearance="@style/error_appearanceG"
+                    app:layout_constraintBottom_toTopOf="@+id/percent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rGrade"
+                    app:layout_constraintVertical_bias="0.15">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/oGrade"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/holo_green_dark"
+                        android:gravity="center"
+                        android:hint="From A Total of:"
+                        android:inputType="numberDecimal"
+                        android:onClick="confirmInputRCVD"
+                        android:textColor="@color/colorText"
+                        android:textSize="25sp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/percent"
+                    android:layout_width="439dp"
+                    android:layout_height="67dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="8dp"
+                    android:background="@color/greenCustom"
+                    android:gravity="center"
+                    android:text="0%"
+                    android:textColor="#FFF"
+                    android:textSize="50sp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.492"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <ImageView
+                    android:id="@+id/dotted2"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/greenCustom"
+                    android:layerType="software"
+                    android:src="@drawable/dotted_line"
+                    app:layout_constraintBottom_toTopOf="@+id/textView2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/percent"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="426dp"
+                    android:layout_height="35dp"
+                    android:background="@color/greenCustom"
+                    android:gravity="center"
+                    android:text="out of 100%"
+                    android:textColor="#FFF"
+                    android:layout_alignParentBottom="true"
+                    android:textSize="15dp"
+                    app:layout_constraintTop_toBottomOf="@+id/dotted2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
