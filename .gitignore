@@ -16,6 +16,11 @@ Software/Android Projects/Courses/AppDev Course/MPAndroidChart-master/MPAndroidC
 Software/Android Projects/Courses/AppDev Course/MaterialTimelineView-master/materialtimelineview/.gitignore
 Software/Android Projects/Courses/AppDev Course/Login_template_02/app/src/main/java/design/nxn/login_template_02/BaseActivity.java
 Software/Android Projects/Courses/Course 1/m5-assignment-birthday-probability-skeleton/app/src/main/java/mooc/vandy/java4android/birthdayprob/logic/LogicInterface.java
+Software/Android Projects/Personal Apps/GPAMapper/app/src/main/java/com/devul/GPAMapper/app/CustomFonts/MySplashTextView.java
+Software/Android Projects/Personal Apps/GPAMapper/app/src/main/java/com/devul/GPAMapper/app/CustomFonts/MyEditText.java
+Software/Android Projects/Personal Apps/GPAMapper/app/src/main/java/com/devul/GPAMapper/app/CustomFonts/MyTextView.java
+
+
 RecyclerView/
 RecyclerViewSwipe/
 Timeline/
@@ -58,6 +63,8 @@ LICENSE
 *.kt
 *.gitignore
 *.flat
+*.svg
+*.eps
 Software/Android Projects/Courses/Course 2/m3-assignment-Downloader-Introduction
 Software/Android Projects/Courses/Course 2/m4-assignment-HaMeRDownloader
 Software/Android Projects/Courses/Course 2/m4-ImageDownloaderApp
