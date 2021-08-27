@@ -36,11 +36,12 @@ vandy/
 debug-mergeJavaRes/
 intermediates/
 Software/Android Projects/Courses/Course 1/m5-assignment-birthday-probability-skeleton/app/src/main/java/mooc/vandy/java4android/birthdayprob/logic/Logic.java
-
-
+Software/Java/Duke University/1. JavaScript, HTML, & CSS/Useful Websites/Programming Foundations with JavaScript, HTML and CSS _ Coursera_files/946401778754875
+Software/Java/Duke University/1. JavaScript, HTML, & CSS/Useful Websites/Devul on CodePen_files/css
 gradlew
 *.md
-
+*.pdf
+*.atom
 .*7z
 *.dmg
 .*gz
@@ -57,6 +58,12 @@ gradlew
 LICENSE
 *.gradle
 *.properties
+*.html
+*.css
+*.download
+*.jpg
+*.png
+*.jpeg
 *.yml
 *.bat
 *.pro
@@ -65,6 +72,7 @@ LICENSE
 *.flat
 *.svg
 *.eps
+*.csv
 Software/Android Projects/Courses/Course 2/m3-assignment-Downloader-Introduction
 Software/Android Projects/Courses/Course 2/m4-assignment-HaMeRDownloader
 Software/Android Projects/Courses/Course 2/m4-ImageDownloaderApp
@@ -74,3 +82,4 @@ Software/Android Projects/Courses/Course 2/m5-assg-AsyncTaskDownloader
 Software/Android Projects/Courses/Course 2/m5-PingPongReceivers
 Software/Android Projects/Courses/Course 2/m5-PingPongReceiversEx
 Software/Android Projects/Courses/Course 2/m5-PingPongReceiversEx
+Software/Java/Duke University/2. Solving Problems with Software/Weeks/3. CSV Files and Basic Statistics in Java/Parsing Weather Data/nc_weather/2012/weather-2012-01-01.csv
