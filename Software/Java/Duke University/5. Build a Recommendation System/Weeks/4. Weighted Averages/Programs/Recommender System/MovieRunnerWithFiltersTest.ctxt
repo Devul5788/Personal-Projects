@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ setUp()
+comment1.params=
+comment1.target=void\ tearDown()
+comment2.params=
+comment2.target=void\ printAverageRatingsTest()
+comment3.params=
+comment3.target=void\ printAverageRatingsByYearTest()
+comment4.params=
+comment4.target=void\ printAverageRatingsByGenreTest()
+comment5.params=
+comment5.target=void\ printAverageRatingsByMinutesTest()
+comment6.params=
+comment6.target=void\ printAverageRatingsByDirectorsTest()
+comment7.params=
+comment7.target=void\ printAverageRatingsByYearAfterAndGenreTest()
+comment8.params=
+comment8.target=void\ printAverageRatingsByDirectorsAndMinutesTest()
+numComments=9

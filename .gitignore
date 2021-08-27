@@ -19,8 +19,29 @@ Software/Android Projects/Courses/Course 1/m5-assignment-birthday-probability-sk
 Software/Android Projects/Personal Apps/GPAMapper/app/src/main/java/com/devul/GPAMapper/app/CustomFonts/MySplashTextView.java
 Software/Android Projects/Personal Apps/GPAMapper/app/src/main/java/com/devul/GPAMapper/app/CustomFonts/MyEditText.java
 Software/Android Projects/Personal Apps/GPAMapper/app/src/main/java/com/devul/GPAMapper/app/CustomFonts/MyTextView.java
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/1. Cryptography/Programs/BreakingTheCaesarCipher/CaesarCipher.java
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/1. Cryptography/Programs/CaesarCipher/CaesarCipher.java
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/1. Cryptography/Programs/CommonWords/CommonWords.java
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/1. Cryptography/Programs/Word Play/CaesarCipher.java
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/2. GladLibs/Programs/CodonCount/data/dnaMystery1.
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/2. GladLibs/Programs/CodonCount/data/dnaMystery2.
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/2. GladLibs/Programs/GladLib/GladLib.java
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/3. Web Server Logs/Programs/WebLogProgram/short-test_log.
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/3. Web Server Logs/Programs/WebLogProgram/weblog-short_log.
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/3. Web Server Logs/Programs/WebLogProgram/weblog1_log.
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/3. Web Server Logs/Programs/WebLogProgram/weblog2-short_log.
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/4. MiniProject - Vigenère Cipher/Programs/CaesarCipher.java
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/4. MiniProject - Vigenère Cipher/Programs/CaesarCracker.java
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/4. MiniProject - Vigenère Cipher/Programs/VigenereBreaker.java
+Software/Java/Duke University/3. Arrays, Lists, & Structured Data/Weeks/4. MiniProject - Vigenère Cipher/Programs/VigenereCipher.java
+Software/Java/Duke University/4. Principles of Software Design/Weeks/1. Interfaces/Programs/EarthquakeFilterStarterProgram/EarthQuakeParser.java
 
 
+
+
+CodonCount/
+dictionaries/
+3. Web Server Logs/
 RecyclerView/
 RecyclerViewSwipe/
 Timeline/
@@ -83,3 +104,27 @@ Software/Android Projects/Courses/Course 2/m5-PingPongReceivers
 Software/Android Projects/Courses/Course 2/m5-PingPongReceiversEx
 Software/Android Projects/Courses/Course 2/m5-PingPongReceiversEx
 Software/Java/Duke University/2. Solving Problems with Software/Weeks/3. CSV Files and Basic Statistics in Java/Parsing Weather Data/nc_weather/2012/weather-2012-01-01.csv
+Software/Java/Duke University/4. Principles of Software Design/Weeks/1. Interfaces/Programs/EarthquakeFilterStarterProgram/Location.java
+Software/Java/Duke University/4. Principles of Software Design/Weeks/1. Interfaces/Programs/EarthquakeFilterStarterProgram/QuakeEntry.java
+Software/Java/Duke University/4. Principles of Software Design/Weeks/1. Interfaces/Programs/SearchingEarthquakeDataStarterProgram/ClosestQuakes.java
+Software/Java/Duke University/4. Principles of Software Design/Weeks/1. Interfaces/Programs/SearchingEarthquakeDataStarterProgram/EarthQuakeParser.java
+Software/Java/Duke University/4. Principles of Software Design/Weeks/1. Interfaces/Programs/SearchingEarthquakeDataStarterProgram/Location.java
+Software/Java/Duke University/4. Principles of Software Design/Weeks/1. Interfaces/Programs/SearchingEarthquakeDataStarterProgram/QuakeEntry.java
+EfficientSort/
+FilterStart/
+QuakeSortDemo/
+SearchingData/
+SortStart/
+Software/Java/Duke University/4. Principles of Software Design/Weeks/2. Programming and Interfaces/Programs/TimeSortDemo/SortTimings.java
+Interface/
+RandomText/
+WordGram/
+WordNGram/
+StepOneStarterProgram/
+StepTwoRecommendedSystem/
+TheCompleteRecommendedSystem/
+StepThreeRecommendedSystem/
+resources/
+__MACOSX/
+WordGramClassStarterProgram/
+WordNGramStarterProgram/
