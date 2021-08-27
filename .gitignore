@@ -8,17 +8,29 @@
 /build
 /captures
 
-Software/Android Projects/Course/Login_template_02/app/src/main/java/design/nxn/login_template_02/BaseActivity.java
-Software/Android Projects/Course/Login_template_02/app/src/main/java/design/nxn/login_template_02/customfonts/MyEditText.java
-Software/Android Projects/Course/Login_template_02/app/src/main/java/design/nxn/login_template_02/customfonts/MySplashTextView.java
-Software/Android Projects/Course/Login_template_02/app/src/main/java/design/nxn/login_template_02/customfonts/MyTextView.java
-Software/Android Projects/Course/MPAndroidChart-master/MPAndroidChart-master/MPChartExample/.gitignore
-Software/Android Projects/Course/MPAndroidChart-master/MPAndroidChart-master/.gitignore
-Software/Android Projects/Course/MPAndroidChart-master/MPAndroidChart-master/MPChartExample/build.gradle
-Software/Android Projects/Course/MPAndroidChart-master/MPAndroidChart-master/MPChartExample/project.properties
-Software/Android Projects/Course/MPAndroidChart-master/MPAndroidChart-master/MPChartExample/src/com/xxmassdeveloper/mpchartexample/AnotherBarActivity.java
-Software/Android Projects/Course/MaterialTimelineView-master/materialtimelineview/.gitignore
-Software/Android Projects/Course/Login_template_02/app/src/main/java/design/nxn/login_template_02/BaseActivity.java
+Software/Android Projects/Courses/AppDev Course/MPAndroidChart-master/MPAndroidChart-master/MPChartExample/.gitignore
+Software/Android Projects/Courses/AppDev Course/MPAndroidChart-master/MPAndroidChart-master/.gitignore
+Software/Android Projects/Courses/AppDev Course/MPAndroidChart-master/MPAndroidChart-master/MPChartExample/build.gradle
+Software/Android Projects/Courses/AppDev Course/MPAndroidChart-master/MPAndroidChart-master/MPChartExample/project.properties
+Software/Android Projects/Courses/AppDev Course/MPAndroidChart-master/MPAndroidChart-master/MPChartExample/src/com/xxmassdeveloper/mpchartexample/AnotherBarActivity.java
+Software/Android Projects/Courses/AppDev Course/MaterialTimelineView-master/materialtimelineview/.gitignore
+Software/Android Projects/Courses/AppDev Course/Login_template_02/app/src/main/java/design/nxn/login_template_02/BaseActivity.java
+Software/Android Projects/Courses/Course 1/m5-assignment-birthday-probability-skeleton/app/src/main/java/mooc/vandy/java4android/birthdayprob/logic/LogicInterface.java
+RecyclerView/
+RecyclerViewSwipe/
+Timeline/
+Settings/
+m2-MyApplicationForExample/
+shapes/
+Login_template_02/
+androidTest/
+birthdayprob/
+diamonds/
+support/
+vandy/
+debug-mergeJavaRes/
+intermediates/
+Software/Android Projects/Courses/Course 1/m5-assignment-birthday-probability-skeleton/app/src/main/java/mooc/vandy/java4android/birthdayprob/logic/Logic.java
 
 
 gradlew
@@ -45,3 +57,4 @@ LICENSE
 *.pro
 *.kt
 *.gitignore
+*.flat
