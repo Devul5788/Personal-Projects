@@ -1,8 +1,0 @@
-* text auto
-
-*.jpg binary
-*.png binary
-*.svg binary
-
-*.vcproj    eol=crlf
-*.sh        eol=lf
